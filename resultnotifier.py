@@ -11,9 +11,9 @@ while 1:
  
  
     if len(matches) == 0: 
-       os.system("notify-send 'Yeah' 'Result is not declared yet'")
+       os.system("notify-send 'Result not declared yet'")
        time.sleep(900)
  
     else:
-       os.system("notify-send 'Oops' 'Result Declared'")
+       os.system("notify-send 'Result Declared'")
        quit()
