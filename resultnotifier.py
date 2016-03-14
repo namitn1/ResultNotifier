@@ -12,7 +12,7 @@ while 1:
  
     if len(matches) == 0: 
        os.system("notify-send 'Result not declared yet'")
-       time.sleep(900)
+       time.sleep(1800)
  
     else:
        os.system("notify-send 'Result Declared'")
